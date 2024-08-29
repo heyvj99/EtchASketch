@@ -1,0 +1,27 @@
+.page-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.box-container {
+    width: 100%;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: beige;
+    
+}
+
+.box {
+ background-color: orange;
+ /* aspect-ratio: 1/1; */
+ border-radius: 2px;
+ flex: 1 1 calc(10% - 1px);
+}
